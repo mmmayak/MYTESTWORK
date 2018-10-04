@@ -1,0 +1,53 @@
+.empty{
+    height: 100%;
+    width: 100%;
+    min-height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.empty-text{
+    font-size: 50px;
+    color: silver;
+    opacity: 0.3;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: brown;
+}
+
+
+.fa-edit{
+    font-size: 20px;
+    transition: all 0.1s;
+    color: dimgray;
+}
+
+
+.fa-edit:hover{
+    color: brown;
+    cursor:  pointer;
+    font-size: 22px;
+}
+
+.fa-plus-square{
+    font-size: 20px;
+    transition: all 0.1s;
+    color: dimgray;
+}
+
+.fa-plus-square:hover{
+    color: mediumseagreen;
+    cursor:  pointer;
+    font-size: 22px;
+}
+
